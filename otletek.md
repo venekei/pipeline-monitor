@@ -1,0 +1,10 @@
+- hogyan lehet strukturaltan regisztralni a kulonbozo konfiguraciokat
+    - a cel hogy a flageket valamilyen strukturara forgassuk at, az atforgatas elott validalja az ertekeket, es egy error-t ad vissza, a flageke tipusosan jonnek vissza, tehat amikor regisztralod
+    - flagmanager.stringFlag("name", validate func(s string) error, field &string)
+- hogyan lehet validalni az osszes konfiguraciot?
+- mikent kene szetbontani a konfiguraciokat a felhasznalas szempontjabol, pl megjelenitesi configok, futasi configok, 
+- van valami library amivel szepen meg lehet jeleniteni tablazatokat
+- milyen rendererek kellenek (yaml, sima tablazat)
+- mikent lehet filterezni a query eredmenyeit
+    - https://github.com/olekukonko/tablewriter
+    - https://github.com/rodaine/table

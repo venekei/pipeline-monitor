@@ -27,6 +27,7 @@ pkgs.mkShell {
     packages = with pkgs; [
         go
      	gopls
+	cobra-cli
         git
     	fzf
 	ripgrep
